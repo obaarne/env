@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p ~/env/backup && cp .vimrc .bashrc env/backup
+cp ~/env/backup/.vimrc ~/env/backup/.bashrc ~/
