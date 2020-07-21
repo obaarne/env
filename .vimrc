@@ -28,6 +28,11 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+" Map paste to F2
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
 " Set to show invisibles (tabs & trailing spaces) & their highlight color
 set list listchars=tab:»\ ,trail:·
 
